@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background: hsla(186, 33%, 94%, 1);
+
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  /* padding: 2em; */
+  justify-content: space-evenly;
+}
+
+#main-section {
+  flex-grow: 1;
+  
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fire {
+  background: hsla(14, 93%, 53%, 1);
+
+  background: linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(14, 93%, 53%, 1) 0%, hsla(30, 84%, 58%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F64C18", endColorstr="#EE9539", GradientType=1 );
+  
+  color: white;
+}
+
+.water {
+  background: hsla(239, 94%, 14%, 1);
+
+  background: linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#020344", endColorstr="#28B8D5", GradientType=1 );
+ 
+  color: white;
+}
+
+.space {
+  background: hsla(265, 53%, 29%, 1);
+
+  background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#FAAE7B", GradientType=1 );
+
+color: white; */
+}
+
+.earth {
+  background: hsla(26, 58%, 23%, 1);
+
+  background: linear-gradient(90deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(26, 58%, 23%, 1) 0%, hsla(30, 15%, 64%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5E3719", endColorstr="#B2A496", GradientType=1 );
+
+  color: white;
+}
+
+.air {
+background: hsla(228, 17%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+
+color: white;
+}
+
+#navbar {
+  padding: 1em;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  color: #f0f8ff;
+  position: fixed;
+  font-style: italic;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background: hsla(186, 33%, 94%, 1);
+  font-size: 21px;
+
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+h1 {
+  padding-bottom: 5px;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: monospace;
+}
